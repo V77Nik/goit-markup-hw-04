@@ -65,7 +65,9 @@ body {
     color: #000000;
 }
 
-.header-link {
+.header-link
+
+{
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -91,7 +93,7 @@ body {
     color: var(--third-title-color);
     padding-top: 32px;
     padding-bottom: 32px;
-    /* padding-left: 16px; */
+
 }
 
 .header-mailto,
@@ -124,23 +126,18 @@ body {
     margin-right: 50px;
 }
 
-.header-two-link {
-    /* display: flex; */
-    /* align-items: center; */
 
-}
 
 .mailto-icon {
-    width: 16px;
-
+  
     margin-right: 10px;
     display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
 }
 
 .tel-icon {
-    width: 10px;
+   
 
         margin-right: 10px;
         display: flex;
