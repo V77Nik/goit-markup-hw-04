@@ -127,13 +127,15 @@ body {
 
 
 
-.mailto-icon {
-    margin-right: 10px;
-}
-
+.mailto-icon,
 .tel-icon {
     margin-right: 10px;
+    fill: currentColor
 }
+
+
+
+
 
 
 
