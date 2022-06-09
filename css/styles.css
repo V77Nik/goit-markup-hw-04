@@ -282,6 +282,7 @@ body {
 .picture-list {
     display: flex;
     justify-content: space-between;
+
 }
 
 .picture {
@@ -322,7 +323,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--third-title-color);
     padding: 0;
-    margin: 0;
+    margin-bottom: 16;
 
 }
 
@@ -350,6 +351,51 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
+.team-icon {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.team-icon-big:not(:last-child) {
+    margin-right: 10px;
+
+}
+
+.team-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+
+    color: var(--second-title-color);
+   
+  
+}
+
+
+.team-icon-small {
+    fill: #AFB1B8
+}
+
+.team-icon-link:hover,
+.team-icon-link:focus {
+    fill: var(--second-title-color);
+   
+    background-color: var(--accent-color);
+
+}
+
+.team-icon-small:hover,
+.team-icon-small:focus {
+    fill: currentColor;
+
+}
+
 
 
 
@@ -359,6 +405,11 @@ body {
     background-color: var(--key-bgc-color);
     padding: 60px 0px;
 
+}
+
+.footer .container {
+    display: flex;
+    align-items: baseline;
 }
 
 .footer-address {
@@ -425,6 +476,60 @@ body {
 .footer-tel {
     display: block;
 }
+
+.footer-topic {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+
+
+
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+
+
+.footer-icon-big:not(:last-child) {
+    margin-right: 10px;
+
+}
+
+.footer-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+
+    background-color: rgba(255, 255, 255, 0.1);;
+
+ 
+}
+
+
+.footer-icon-small {
+    fill: var(--second-title-color);
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+    background-color: var(--accent-color);
+}
+
+
 
 /* -------------------------------------Страница 2 (портфолио)--------------------------------------*/
 
