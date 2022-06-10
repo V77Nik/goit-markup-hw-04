@@ -371,21 +371,14 @@ body {
     border-radius: 50%;
     width: 44px;
     height: 44px;
-
+    fill: #AFB1B8;
     color: var(--second-title-color);
-   
-  
-}
 
-
-.team-icon-small {
-    fill: #AFB1B8
 }
 
 .team-icon-link:hover,
 .team-icon-link:focus {
     fill: var(--second-title-color);
-   
     background-color: var(--accent-color);
 
 }
@@ -396,8 +389,49 @@ body {
 
 }
 
+/* ---------------------------------REGULAR CLIENTS-------------------------------------- */
+
+.regular {
+    padding: 94px 0px;
+}
+
+.regular-list {
+    display: flex;
+    justify-content: center;
+}
+
+.clients:not(:last-child) {
+    margin-right: 30px;
+}
+
+.regular-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
 
 
+    fill: #AFB1B8;
+
+
+}
+
+.regular-icon-link:hover,
+.regular-icon-link:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    fill: var(--accent-color);
+
+}
+
+.team-icon-small:hover,
+.team-icon-small:focus {
+    fill: currentColor;
+}
 
 /*--------------------------------------FOOTER--------------------------------------------*/
 
@@ -514,9 +548,10 @@ body {
     width: 44px;
     height: 44px;
 
-    background-color: rgba(255, 255, 255, 0.1);;
+    background-color: rgba(255, 255, 255, 0.1);
+    ;
 
- 
+
 }
 
 
