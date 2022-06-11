@@ -229,24 +229,29 @@ body {
     justify-content: space-between;
 }
 
-.about-item::before {
-    display: block;
-    content: '';
-    height: 120px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    background-repeat: no-repeat;
-    background-position: center;
 
+
+.about-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
 }
 
-.icon-antenna::before {
+
+
+
+
+/* .icon-antenna::before {
     background-image: url(../images/antenna\ 1.svg);
     background-size: 65px;
 
-}
+} */
 
-.icon-clock::before {
+/* .icon-clock::before {
     background-image: url(../images/clock\ 1.svg);
     background-size: 67px;
 }
@@ -259,7 +264,7 @@ body {
 .icon-astronaut::before {
     background-image: url(../images/astronaut\ 1.svg);
     background-size: 70px;
-}
+} */
 
 
 
@@ -638,8 +643,9 @@ body {
     margin-bottom: 0;
 }
 
-.portfolio-item:hover {
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+.portfolio-item:hover,
+.portfolio-item:focus {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .works-list {
